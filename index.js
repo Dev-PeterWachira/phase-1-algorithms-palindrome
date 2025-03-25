@@ -1,13 +1,18 @@
 function isPalindrome(word) {
-  // Write your algorithm here
-}
+    let str = word.split("").reverse().join("");
 
+    if (word === str) {
+        return true
+    } else {
+    return false
+    }
+}
 /* 
-  Add your pseudocode here
+  split the string,reverse the string,join the string and compare it with the original string
 */
 
 /*
-  Add written explanation of your solution here
+  First of all reverse the string and then compare it with the original string
 */
 
 // You can run `node index.js` to view these console logs
